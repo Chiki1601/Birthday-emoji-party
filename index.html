@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Birthday emoji party </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>Birthday emoji party <button aria-label="configure" id="btnConfigure" class="icon-btn" title="configure">⚙</button></h1>
+<h2 class="subtitle">(Click the gear icon above to configure the name and the emojis)</h2>
+<form class="variables hidden">
+ <label>
+  Name: <input name="name" type="text" />
+ </label>
+ <label>
+  Celebration emojis: <input name="celebrationEmojis" type="text" />
+ </label>
+ <label>
+  Character for 'Happy': <input name="happyEmoji" type="text" maxlength="1" />
+ </label>
+ <label>
+  Character for 'Birthday': <input name="birthdayEmoji" type="text" maxlength="1" />
+ </label>
+ <label>
+  Character for Name: <input name="nameEmoji" type="text" maxlength="1" />
+ </label>
+ <label>
+  Character for celebrations: <input name="celebEmoji" type="text" maxlength="1" />
+ </label>
+ <button type="submit">Update drawing</button>
+</form>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
